@@ -1,11 +1,11 @@
 // The Long Roast: Lawmakers and the File They Cannot Convert — make.fun entry.
 // Writes this entry's single line to /output/entry.txt.
-// Gate: UTF-8 text, 1-320 characters, not only whitespace. This line is 192.
+// Gate: UTF-8 text, 1-320 characters, not only whitespace. This line is 190.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const LINE =
-  "He will write the laws for artificial intelligence, cryptocurrency, and the entire internet, just as soon as his intern gets back from lunch to show him how to turn a Word document into a PDF.";
+  "He will write the laws for artificial intelligence, cryptocurrency, and the entire internet, just as soon as his intern gets back from lunch to show him how to save a Word document as a PDF.";
 
 const candidates = ["/output/entry.txt", "output/entry.txt"];
 
